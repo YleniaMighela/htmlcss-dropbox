@@ -4,3 +4,37 @@
     box-sizing: border-box;
     font-family: Open Sans, preso da da GFonts;
 }
+
+/* header */
+header{
+    width: 100%;
+    height:60px;
+    position: fixed;
+    /* DEBUG */
+    /* background-color: orange; */
+    
+}
+/* contenuto logo e navigazione */
+.container-right{
+    display: flex;
+    padding:10px;
+}
+
+.logo{
+    width:100px;
+}
+.nav-right{
+    display: flex;
+    justify-content: center;
+    padding:0 10px;
+   
+}
+ul{
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+    font-size:15px;
+    padding:0 10px;
+}
