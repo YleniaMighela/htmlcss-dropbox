@@ -10,6 +10,7 @@ header{
     width: 100%;
     height:60px;
     position: fixed;
+    position:relative;
     /* DEBUG */
     /* background-color: orange; */
     
@@ -29,7 +30,7 @@ header{
     padding:0 10px;
    
 }
-ul{
+.link{
     display: flex;
 }
 
@@ -37,4 +38,26 @@ li{
     list-style-type: none;
     font-size:15px;
     padding:0 10px;
+}
+
+/* contenuto navigazione e accesso */
+.container-left{
+    display: flex;
+    padding:10px 15px;
+    position: absolute;
+    top:0;
+    right:0;
+}
+
+.nav-left{
+    display: flex;
+    justify-content: center;
+    padding:0 10px;
+}
+
+#small-button{
+    background-color: #0061fe;
+    color:white;
+    padding:5px;
+
 }
