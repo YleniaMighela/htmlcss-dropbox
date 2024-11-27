@@ -61,3 +61,47 @@ li{
     padding:5px;
 
 }
+
+/* contenuto principale */
+
+/* contenitore jumbo */
+.jumbo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b4d0e6;
+    height:400px;
+}
+.container-jumbo{
+    width:70%;
+    height:300px;
+}
+
+h1{
+    font-size:40px;
+}
+
+/* contenitore testo e immagine */
+.container-text-img{
+    display: flex;
+    justify-content: center;
+    padding:40px 40px;
+    /* DEBUG */
+    /* background-color: yellow; */
+    height:300px;
+}
+
+.text-jumbo{
+    width:50%;
+    padding:0 20px;
+}
+
+img{
+    width:500px;
+}
+
+.big-button{
+    background-color: #0061fe;
+    padding:5px;
+   
+}
