@@ -320,3 +320,31 @@ h4{
 #link{
 padding: 20px;
 }
+
+/* FOOTER */
+.container-footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom:5px;
+    background-color:black;
+    padding:40px;
+    /* DEBUG */
+    /* height:500px; */
+    width: auto;
+}
+.column-footer{
+    flex-basis:15%;
+    /* DEBUG */
+    /* background-color: #20b3aa;
+    border:2px solid black; */
+}
+
+.link-weight {
+    font-weight: 300px;
+ 
+}
+
+.list-footer>li {
+    line-height: 55px;
+    color: white;
+}
