@@ -154,7 +154,7 @@ margin:20px;
     padding:10px;
     /* DEBUG */
     /* background-color: #218b21; */
-    border:1px solid #d0cfd4;
+    /* border:1px solid #d0cfd4; */
     
 }
 
@@ -244,4 +244,39 @@ h6{
     text-align:center;
     margin:0 20px;
 
+}
+
+/* sezione trova un partner */
+.container-partner{
+    display: flex;
+    justify-content: center;
+    padding:40px;
+    height:400px;
+    
+}
+
+#container-img{ 
+    flex-basis:40%;
+
+    /* DEBUG */
+    /* background-color: #1e90ff;
+    height: 100%; */
+}
+
+#container-text{
+    flex-basis:20%;
+    /* DEBUG */
+    /* background-color: #ffc0ca; */
+    /* height:100%; */
+}
+#img-partner{
+    width:100%
+}
+
+#button-white{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    margin:0 20px;
+    padding:5px;
 }
