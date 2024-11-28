@@ -146,7 +146,7 @@ margin:20px;
     width: auto;
     /* DEBUG */
     /* background-color: aquamarine; */
-    height:700px;
+    /* height:700px; */
 } 
 
 .container-plan{
@@ -195,11 +195,15 @@ hr{
 .main-plane{
     display: flex;
     flex-direction: column;
+    align-items: start;
 }
 
 .lista{
     display: flex;
     flex-direction: column;
+    align-items: start;
+    line-height: 45px;
+    padding:10px;
 }
 
 /* sezionte enterprise */
@@ -217,10 +221,12 @@ hr{
 .enterprise{
     width:60%;
     position: relative;
-    /* DEBUG */
-    height:100%;
-    /* background-color: #ef82ed; */
     border:1px solid #d0cfd4;
+    margin:90px;
+    /* DEBUG */
+    /* height:100%; */
+    /* background-color: #ef82ed; */
+ 
 }
 
 #team{
@@ -298,7 +304,7 @@ h6{
     /* border: 1px solid black;  */
 } 
 
-.block-operation #block{
+.block-operation .block{
     width:100%;
 }
 
@@ -340,7 +346,7 @@ padding: 20px;
 }
 
 .link-weight {
-    font-weight: 300px;
+    font-weight: 800;
  
 }
 
