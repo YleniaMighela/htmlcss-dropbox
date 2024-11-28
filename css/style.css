@@ -2,7 +2,7 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
-    font-family: Open Sans, preso da da GFonts;
+    font-family: Open sans-serif;
 }
 
 /* header */
@@ -180,10 +180,13 @@ h2{
     width:30%;
     /* padding:4px; */
     border:1px solid #d0cfd4;
-    text-align: center;
+    /* text-align: center; */
     /* DEBUG */
     /* height:100%;
     background-color: blueviolet; */
+}
+#personal{
+    text-align: center;
 }
 
 hr{
@@ -202,8 +205,13 @@ hr{
     display: flex;
     flex-direction: column;
     align-items: start;
-    line-height: 45px;
-    padding:10px;
+    line-height: 40px;
+    /* padding:10px; */
+}
+
+.fa-check{
+    color: blue;
+    font-size:20px;
 }
 
 /* sezionte enterprise */
@@ -212,17 +220,17 @@ hr{
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding:40px;
+    padding:20px;
     /* DEBUG */
     /* background-color: #00018b; */
-    height:100%;
+    /* height:100%; */
  
 }
 .enterprise{
     width:60%;
     position: relative;
     border:1px solid #d0cfd4;
-    margin:90px;
+    
     /* DEBUG */
     /* height:100%; */
     /* background-color: #ef82ed; */
