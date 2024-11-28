@@ -251,7 +251,8 @@ h6{
     display: flex;
     justify-content: center;
     padding:40px;
-    height:400px;
+    /* DEBUG */
+    /* height:400px; */
     
 }
 
@@ -279,4 +280,30 @@ h6{
     border: 1px solid black;
     margin:0 20px;
     padding:5px;
+}
+
+/* sezione contenuto operazioni */
+.container-operation{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:15px;
+}
+
+.block-operation{
+    width:25%;
+     /* DEBUG */
+     /* height: 100%;
+    background-color: #86a583; */
+    /* border: 1px solid black;  */
+} 
+
+.block-operation #block{
+    width:100%;
+}
+
+h4{
+    font-size:40px;
+    padding:60px;
+    text-align: center;
 }
