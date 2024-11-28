@@ -154,7 +154,7 @@ margin:20px;
     padding:10px;
     /* DEBUG */
     /* background-color: #218b21; */
-    border:1px solid black;
+    border:1px solid #d0cfd4;
     
 }
 
@@ -171,6 +171,7 @@ h2{
 .plane{
     display: flex;
     justify-content: space-between;
+    padding:30px;
 }
 .header-plane{
     display: flex;
@@ -178,7 +179,7 @@ h2{
     flex-direction: column;
     width:30%;
     /* padding:4px; */
-    border:1px solid black;
+    border:1px solid #d0cfd4;
     text-align: center;
     /* DEBUG */
     /* height:100%;
@@ -186,7 +187,7 @@ h2{
 }
 
 hr{
-    color: black;
+    color: #d0cfd4;
 }
 
 /* main-plane */
@@ -199,4 +200,48 @@ hr{
 .lista{
     display: flex;
     flex-direction: column;
+}
+
+/* sezionte enterprise */
+.container-enterprise{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding:40px;
+    /* DEBUG */
+    /* background-color: #00018b; */
+    height:100%;
+ 
+}
+.enterprise{
+    width:60%;
+    position: relative;
+    /* DEBUG */
+    height:100%;
+    /* background-color: #ef82ed; */
+    border:1px solid #d0cfd4;
+}
+
+#team{
+    text-align: center;
+}
+
+h3{
+    padding:10px;
+}
+
+h6{
+    padding:10px;
+}
+#big-button-enterprise{
+    position: absolute;
+    top:20%;
+    right:0%;
+    background-color: #0061fe;
+    padding:5px 15px;
+    color:white;
+    text-align:center;
+    margin:0 20px;
+
 }
