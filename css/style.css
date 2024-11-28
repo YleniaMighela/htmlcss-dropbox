@@ -307,3 +307,16 @@ h4{
     padding:60px;
     text-align: center;
 }
+
+/* sezione informazioni */
+.container-information{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding:60px 30px;
+
+}
+
+#link{
+padding: 20px;
+}
