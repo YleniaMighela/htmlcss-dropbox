@@ -10,6 +10,7 @@ header{
     width: 100%;
     height:60px;
     position: fixed;
+    z-index: 1000;
     display: flex;
     justify-content: space-between;
     background-color:white;
@@ -118,7 +119,7 @@ p{
 margin:20px;
 }
 
-.fa-solid{
+#fa-solid{
     margin-top: 30px;
     font-size: 35px;
     position: absolute;
@@ -135,22 +136,67 @@ margin:20px;
     background-color: white;
 }
 
+
+
 /* contenitore business */
-.container-business{
-    /* display:flex;
-    justify-content: center; */
+.container-business{ 
+    display:flex;
+    justify-content: center;
     padding:40px;
-    text-align: center;
+    width: auto;
     /* DEBUG */
     /* background-color: aquamarine; */
-}
+    height:700px;
+} 
 
-h2{
+.container-plan{
+    flex-basis:60%;
+    padding:10px;
+    /* DEBUG */
+    /* background-color: #218b21; */
+    border:1px solid black;
     
 }
 
-.checkbox{
-    display: flex;
-    justify-content: center;
+h2{
+    padding: 20px;;
+}
 
+.checkbox{
+    margin:5px;
+ 
+} 
+
+/* contenuti singoli piani business */
+.plane{
+    display: flex;
+    justify-content: space-between;
+}
+.header-plane{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width:30%;
+    /* padding:4px; */
+    border:1px solid black;
+    text-align: center;
+    /* DEBUG */
+    /* height:100%;
+    background-color: blueviolet; */
+}
+
+hr{
+    color: black;
+}
+
+/* main-plane */
+
+.main-plane{
+    display: flex;
+    flex-direction: column;
+}
+
+.lista{
+    display: flex;
+    flex-direction: column;
 }
